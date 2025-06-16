@@ -17,7 +17,7 @@ public class Randoms implements Iterable<Integer> {
         return new Iterator<Integer>() {
             @Override
             public boolean hasNext() {
-                return true; // Бесконечная последовательность
+                return true;
             }
 
             @Override
